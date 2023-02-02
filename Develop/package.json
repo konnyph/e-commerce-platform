@@ -1,0 +1,31 @@
+{
+  "name": "e-commerce-platform",
+  "version": "1.0.0",
+  "description": "an e-commerce platform with backend code",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konnyph/e-commerce-platform.git"
+  },
+  "keywords": [
+    "express.js",
+    "node.js",
+    "api",
+    "orm"
+  ],
+  "author": "Konny P Ho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konnyph/e-commerce-platform/issues"
+  },
+  "homepage": "https://github.com/konnyph/e-commerce-platform#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.1.0",
+    "sequelize": "^6.28.0"
+  }
+}
